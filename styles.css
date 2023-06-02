@@ -1,0 +1,23 @@
+body{
+color: white;
+background-color: black;
+height : 100vh;
+display : flex;
+flex-direction: column;
+justify-content: center;
+align-items : center;
+}
+div{
+text-align: center;
+color: red;
+width: 10%;
+background-color: white;
+padding : 20px;
+border-radius : 15px;
+transition-duration : 15s;
+}
+div:hover{
+color: black;
+background-color : orange;
+transform: rotate(7000deg);
+}
